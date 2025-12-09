@@ -13,4 +13,6 @@ jobs:
           node-version: '20'
       - name: Teste3  
         run: node app.js
+      - name: Listagem de arquivos 
+        run: ls ${{ github.workspace }}
 
