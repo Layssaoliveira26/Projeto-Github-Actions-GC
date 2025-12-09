@@ -11,8 +11,6 @@ jobs:
         uses: actions/setup-node@v4
         with: 
           node-version: '20'
-      - name: Teste2
-        run: npm install
       - name: Teste3  
         run: node app.js
 
